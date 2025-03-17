@@ -1,0 +1,1 @@
+// musicController.js - Handles music-related operations (fetching, uploading, deleting songs)

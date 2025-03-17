@@ -1,0 +1,1 @@
+// **`otherModels.js` - Contains additional Mongoose schemas/models for other entities (e.g., playlists, artists, genres, etc.)**

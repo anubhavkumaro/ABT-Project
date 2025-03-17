@@ -1,0 +1,1 @@
+// app.js - This file handles frontend interactivity (DOM manipulation, event handling)

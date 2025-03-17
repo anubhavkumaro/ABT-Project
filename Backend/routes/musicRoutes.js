@@ -1,0 +1,1 @@
+// **`musicRoutes.js` - Defines API routes for handling music-related operations (e.g., fetching, uploading, updating, and deleting music files).**
