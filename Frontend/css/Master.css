@@ -56,7 +56,6 @@
     width: 100%;
     height:85vh;
     background-image: url(/ABT-PROJECT/Frontend/Assets/image/slider.jpeg);
-    background-image: url(/Anubhav/ABT-PROJECT/Frontend/Assets/image/slider.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -76,6 +75,8 @@
 .content h1 span{
     color: #DC5014;
 }
+
+
 
 .textcontent{
     width: 100%;
@@ -138,6 +139,10 @@
 .textcontent1 .image1{
     width: 30%;
     height: 100%;
+
+    background-image: url(Image/2.jpeg);
+    background-size: cover;
+
 }
 .image1 img{
     width: 100%;
@@ -152,10 +157,12 @@
     font-weight: bold;
     color:#DC5014;
 
+
 .l{
     width: 1px;
     height: 150px;
     background-color: white;
+
 
 }
 @media (max-width:1503px){
@@ -169,6 +176,38 @@
         flex-direction: column;
         text-align: center;
     }
+    .textcontent{
+        display: block;
+    }
+    .textcontent .image{
+        width: 100%;
+        
+    }
+    .textcontent .text{
+        width: 100%;
+        height: auto;
+    }
+    .textcontent1{
+        width: 100%;
+        display: block;
+    }
+    .textcontent1 .text1{
+        width: 100%;
+        height: auto;
+    }
+    .textcontent1 .image1{
+        width: 100%;
+    }
+    .textcontent .text{
+        padding: 0px 10px;
+    }
+    .textcontent1 .text1 .text1_c1,.text1_c2{
+        padding: 0px 10px;
+    }
+    .textcontent1 .text1 .text1_c2{
+        padding-top: 20px;
+    }
+
 
     .textcontent{
         display: block;
@@ -222,6 +261,9 @@
     .navbar {
 
         flex-direction:column;
+
+
+        flex-direction:column;
         align-items: center;
         padding: 10px;
     }
@@ -244,6 +286,21 @@
         flex-direction: column;
         align-items: center;
         padding: 10px;
+    }
+    .achivement .flower{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .flower .a_c1{
+        border: none;
+    }
+    .flower .a_c2{
+        border: none;
+    }
+    .flower .a_c3{
+        border: none;
+    }
+    .achivement #ac{
+        font-size: 3rem;
     }
 
 
@@ -305,6 +362,7 @@
     column-gap: 10px;
    
 
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -315,6 +373,9 @@
     color: white;
 }
 .flower .a_c1,.a_c2,.a_c3,.a_c4{
+
+ width: 100%;
+
 
  width: 100%;
 
